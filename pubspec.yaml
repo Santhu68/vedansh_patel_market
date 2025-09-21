@@ -1,0 +1,28 @@
+name: vedansh_patel_market
+description: Vedansh Patel Market - Dairy, Vegetables & Insurance App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  url_launcher: ^6.3.1
+  flutter_local_notifications: ^17.1.2
+  http: ^1.2.2
+  google_fonts: ^6.2.1
+  webview_flutter: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/brochures/
